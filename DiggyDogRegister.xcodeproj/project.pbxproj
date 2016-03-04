@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBEAF1B11C8A49AC00CBB90F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEAF1B01C8A49AC00CBB90F /* AppDelegate.swift */; };
+		FBEAF1B31C8A49AC00CBB90F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEAF1B21C8A49AC00CBB90F /* ViewController.swift */; };
+		FBEAF1B61C8A49AC00CBB90F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBEAF1B41C8A49AC00CBB90F /* Main.storyboard */; };
+		FBEAF1B81C8A49AC00CBB90F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBEAF1B71C8A49AC00CBB90F /* Assets.xcassets */; };
+		FBEAF1BB1C8A49AC00CBB90F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBEAF1B91C8A49AC00CBB90F /* LaunchScreen.storyboard */; };
+		FBEAF1C61C8A49AC00CBB90F /* DiggyDogRegisterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEAF1C51C8A49AC00CBB90F /* DiggyDogRegisterTests.swift */; };
+		FBEAF1D11C8A49AC00CBB90F /* DiggyDogRegisterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEAF1D01C8A49AC00CBB90F /* DiggyDogRegisterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBEAF1C21C8A49AC00CBB90F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBEAF1A51C8A49AC00CBB90F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBEAF1AC1C8A49AC00CBB90F;
+			remoteInfo = DiggyDogRegister;
+		};
+		FBEAF1CD1C8A49AC00CBB90F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBEAF1A51C8A49AC00CBB90F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBEAF1AC1C8A49AC00CBB90F;
+			remoteInfo = DiggyDogRegister;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBEAF1AD1C8A49AC00CBB90F /* DiggyDogRegister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiggyDogRegister.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBEAF1B01C8A49AC00CBB90F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBEAF1B21C8A49AC00CBB90F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBEAF1B51C8A49AC00CBB90F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBEAF1B71C8A49AC00CBB90F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBEAF1BA1C8A49AC00CBB90F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBEAF1BC1C8A49AC00CBB90F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBEAF1C11C8A49AC00CBB90F /* DiggyDogRegisterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiggyDogRegisterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBEAF1C51C8A49AC00CBB90F /* DiggyDogRegisterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiggyDogRegisterTests.swift; sourceTree = "<group>"; };
+		FBEAF1C71C8A49AC00CBB90F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBEAF1CC1C8A49AC00CBB90F /* DiggyDogRegisterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiggyDogRegisterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBEAF1D01C8A49AC00CBB90F /* DiggyDogRegisterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiggyDogRegisterUITests.swift; sourceTree = "<group>"; };
+		FBEAF1D21C8A49AC00CBB90F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBEAF1AA1C8A49AC00CBB90F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBEAF1BE1C8A49AC00CBB90F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBEAF1C91C8A49AC00CBB90F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBEAF1A41C8A49AC00CBB90F = {
+			isa = PBXGroup;
+			children = (
+				FBEAF1AF1C8A49AC00CBB90F /* DiggyDogRegister */,
+				FBEAF1C41C8A49AC00CBB90F /* DiggyDogRegisterTests */,
+				FBEAF1CF1C8A49AC00CBB90F /* DiggyDogRegisterUITests */,
+				FBEAF1AE1C8A49AC00CBB90F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBEAF1AE1C8A49AC00CBB90F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBEAF1AD1C8A49AC00CBB90F /* DiggyDogRegister.app */,
+				FBEAF1C11C8A49AC00CBB90F /* DiggyDogRegisterTests.xctest */,
+				FBEAF1CC1C8A49AC00CBB90F /* DiggyDogRegisterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBEAF1AF1C8A49AC00CBB90F /* DiggyDogRegister */ = {
+			isa = PBXGroup;
+			children = (
+				FBEAF1B01C8A49AC00CBB90F /* AppDelegate.swift */,
+				FBEAF1B21C8A49AC00CBB90F /* ViewController.swift */,
+				FBEAF1B41C8A49AC00CBB90F /* Main.storyboard */,
+				FBEAF1B71C8A49AC00CBB90F /* Assets.xcassets */,
+				FBEAF1B91C8A49AC00CBB90F /* LaunchScreen.storyboard */,
+				FBEAF1BC1C8A49AC00CBB90F /* Info.plist */,
+			);
+			path = DiggyDogRegister;
+			sourceTree = "<group>";
+		};
+		FBEAF1C41C8A49AC00CBB90F /* DiggyDogRegisterTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBEAF1C51C8A49AC00CBB90F /* DiggyDogRegisterTests.swift */,
+				FBEAF1C71C8A49AC00CBB90F /* Info.plist */,
+			);
+			path = DiggyDogRegisterTests;
+			sourceTree = "<group>";
+		};
+		FBEAF1CF1C8A49AC00CBB90F /* DiggyDogRegisterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FBEAF1D01C8A49AC00CBB90F /* DiggyDogRegisterUITests.swift */,
+				FBEAF1D21C8A49AC00CBB90F /* Info.plist */,
+			);
+			path = DiggyDogRegisterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBEAF1AC1C8A49AC00CBB90F /* DiggyDogRegister */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBEAF1D51C8A49AC00CBB90F /* Build configuration list for PBXNativeTarget "DiggyDogRegister" */;
+			buildPhases = (
+				FBEAF1A91C8A49AC00CBB90F /* Sources */,
+				FBEAF1AA1C8A49AC00CBB90F /* Frameworks */,
+				FBEAF1AB1C8A49AC00CBB90F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiggyDogRegister;
+			productName = DiggyDogRegister;
+			productReference = FBEAF1AD1C8A49AC00CBB90F /* DiggyDogRegister.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBEAF1C01C8A49AC00CBB90F /* DiggyDogRegisterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBEAF1D81C8A49AC00CBB90F /* Build configuration list for PBXNativeTarget "DiggyDogRegisterTests" */;
+			buildPhases = (
+				FBEAF1BD1C8A49AC00CBB90F /* Sources */,
+				FBEAF1BE1C8A49AC00CBB90F /* Frameworks */,
+				FBEAF1BF1C8A49AC00CBB90F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBEAF1C31C8A49AC00CBB90F /* PBXTargetDependency */,
+			);
+			name = DiggyDogRegisterTests;
+			productName = DiggyDogRegisterTests;
+			productReference = FBEAF1C11C8A49AC00CBB90F /* DiggyDogRegisterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FBEAF1CB1C8A49AC00CBB90F /* DiggyDogRegisterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBEAF1DB1C8A49AC00CBB90F /* Build configuration list for PBXNativeTarget "DiggyDogRegisterUITests" */;
+			buildPhases = (
+				FBEAF1C81C8A49AC00CBB90F /* Sources */,
+				FBEAF1C91C8A49AC00CBB90F /* Frameworks */,
+				FBEAF1CA1C8A49AC00CBB90F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBEAF1CE1C8A49AC00CBB90F /* PBXTargetDependency */,
+			);
+			name = DiggyDogRegisterUITests;
+			productName = DiggyDogRegisterUITests;
+			productReference = FBEAF1CC1C8A49AC00CBB90F /* DiggyDogRegisterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBEAF1A51C8A49AC00CBB90F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Alumno;
+				TargetAttributes = {
+					FBEAF1AC1C8A49AC00CBB90F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					FBEAF1C01C8A49AC00CBB90F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FBEAF1AC1C8A49AC00CBB90F;
+					};
+					FBEAF1CB1C8A49AC00CBB90F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FBEAF1AC1C8A49AC00CBB90F;
+					};
+				};
+			};
+			buildConfigurationList = FBEAF1A81C8A49AC00CBB90F /* Build configuration list for PBXProject "DiggyDogRegister" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBEAF1A41C8A49AC00CBB90F;
+			productRefGroup = FBEAF1AE1C8A49AC00CBB90F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBEAF1AC1C8A49AC00CBB90F /* DiggyDogRegister */,
+				FBEAF1C01C8A49AC00CBB90F /* DiggyDogRegisterTests */,
+				FBEAF1CB1C8A49AC00CBB90F /* DiggyDogRegisterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBEAF1AB1C8A49AC00CBB90F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBEAF1BB1C8A49AC00CBB90F /* LaunchScreen.storyboard in Resources */,
+				FBEAF1B81C8A49AC00CBB90F /* Assets.xcassets in Resources */,
+				FBEAF1B61C8A49AC00CBB90F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBEAF1BF1C8A49AC00CBB90F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBEAF1CA1C8A49AC00CBB90F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBEAF1A91C8A49AC00CBB90F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBEAF1B31C8A49AC00CBB90F /* ViewController.swift in Sources */,
+				FBEAF1B11C8A49AC00CBB90F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBEAF1BD1C8A49AC00CBB90F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBEAF1C61C8A49AC00CBB90F /* DiggyDogRegisterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBEAF1C81C8A49AC00CBB90F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBEAF1D11C8A49AC00CBB90F /* DiggyDogRegisterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBEAF1C31C8A49AC00CBB90F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBEAF1AC1C8A49AC00CBB90F /* DiggyDogRegister */;
+			targetProxy = FBEAF1C21C8A49AC00CBB90F /* PBXContainerItemProxy */;
+		};
+		FBEAF1CE1C8A49AC00CBB90F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBEAF1AC1C8A49AC00CBB90F /* DiggyDogRegister */;
+			targetProxy = FBEAF1CD1C8A49AC00CBB90F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBEAF1B41C8A49AC00CBB90F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBEAF1B51C8A49AC00CBB90F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBEAF1B91C8A49AC00CBB90F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBEAF1BA1C8A49AC00CBB90F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBEAF1D31C8A49AC00CBB90F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBEAF1D41C8A49AC00CBB90F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBEAF1D61C8A49AC00CBB90F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DiggyDogRegister/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = a.DiggyDogRegister;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FBEAF1D71C8A49AC00CBB90F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DiggyDogRegister/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = a.DiggyDogRegister;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FBEAF1D91C8A49AC00CBB90F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DiggyDogRegisterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = a.DiggyDogRegisterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiggyDogRegister.app/DiggyDogRegister";
+			};
+			name = Debug;
+		};
+		FBEAF1DA1C8A49AC00CBB90F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DiggyDogRegisterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = a.DiggyDogRegisterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiggyDogRegister.app/DiggyDogRegister";
+			};
+			name = Release;
+		};
+		FBEAF1DC1C8A49AC00CBB90F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DiggyDogRegisterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = a.DiggyDogRegisterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DiggyDogRegister;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FBEAF1DD1C8A49AC00CBB90F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DiggyDogRegisterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = a.DiggyDogRegisterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DiggyDogRegister;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBEAF1A81C8A49AC00CBB90F /* Build configuration list for PBXProject "DiggyDogRegister" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBEAF1D31C8A49AC00CBB90F /* Debug */,
+				FBEAF1D41C8A49AC00CBB90F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBEAF1D51C8A49AC00CBB90F /* Build configuration list for PBXNativeTarget "DiggyDogRegister" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBEAF1D61C8A49AC00CBB90F /* Debug */,
+				FBEAF1D71C8A49AC00CBB90F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FBEAF1D81C8A49AC00CBB90F /* Build configuration list for PBXNativeTarget "DiggyDogRegisterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBEAF1D91C8A49AC00CBB90F /* Debug */,
+				FBEAF1DA1C8A49AC00CBB90F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FBEAF1DB1C8A49AC00CBB90F /* Build configuration list for PBXNativeTarget "DiggyDogRegisterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBEAF1DC1C8A49AC00CBB90F /* Debug */,
+				FBEAF1DD1C8A49AC00CBB90F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBEAF1A51C8A49AC00CBB90F /* Project object */;
+}
