@@ -14,6 +14,8 @@
 		FBEAF1BB1C8A49AC00CBB90F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBEAF1B91C8A49AC00CBB90F /* LaunchScreen.storyboard */; };
 		FBEAF1C61C8A49AC00CBB90F /* DiggyDogRegisterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEAF1C51C8A49AC00CBB90F /* DiggyDogRegisterTests.swift */; };
 		FBEAF1D11C8A49AC00CBB90F /* DiggyDogRegisterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEAF1D01C8A49AC00CBB90F /* DiggyDogRegisterUITests.swift */; };
+		FBF370541CCEFAE200947632 /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = FBF370531CCEFAE200947632 /* dog.png */; };
+		FBF370561CCEFEEE00947632 /* ImageSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF370551CCEFEEE00947632 /* ImageSelectViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		FBEAF1CC1C8A49AC00CBB90F /* DiggyDogRegisterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiggyDogRegisterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBEAF1D01C8A49AC00CBB90F /* DiggyDogRegisterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiggyDogRegisterUITests.swift; sourceTree = "<group>"; };
 		FBEAF1D21C8A49AC00CBB90F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBF370531CCEFAE200947632 /* dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog.png; sourceTree = "<group>"; };
+		FBF370551CCEFEEE00947632 /* ImageSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSelectViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 				FBEAF1C41C8A49AC00CBB90F /* DiggyDogRegisterTests */,
 				FBEAF1CF1C8A49AC00CBB90F /* DiggyDogRegisterUITests */,
 				FBEAF1AE1C8A49AC00CBB90F /* Products */,
+				FBF370531CCEFAE200947632 /* dog.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +108,7 @@
 				FBEAF1B71C8A49AC00CBB90F /* Assets.xcassets */,
 				FBEAF1B91C8A49AC00CBB90F /* LaunchScreen.storyboard */,
 				FBEAF1BC1C8A49AC00CBB90F /* Info.plist */,
+				FBF370551CCEFEEE00947632 /* ImageSelectViewController.swift */,
 			);
 			path = DiggyDogRegister;
 			sourceTree = "<group>";
@@ -229,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBF370541CCEFAE200947632 /* dog.png in Resources */,
 				FBEAF1BB1C8A49AC00CBB90F /* LaunchScreen.storyboard in Resources */,
 				FBEAF1B81C8A49AC00CBB90F /* Assets.xcassets in Resources */,
 				FBEAF1B61C8A49AC00CBB90F /* Main.storyboard in Resources */,
@@ -256,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBF370561CCEFEEE00947632 /* ImageSelectViewController.swift in Sources */,
 				FBEAF1B31C8A49AC00CBB90F /* ViewController.swift in Sources */,
 				FBEAF1B11C8A49AC00CBB90F /* AppDelegate.swift in Sources */,
 			);
@@ -482,6 +490,7 @@
 				FBEAF1D71C8A49AC00CBB90F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FBEAF1D81C8A49AC00CBB90F /* Build configuration list for PBXNativeTarget "DiggyDogRegisterTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +499,7 @@
 				FBEAF1DA1C8A49AC00CBB90F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FBEAF1DB1C8A49AC00CBB90F /* Build configuration list for PBXNativeTarget "DiggyDogRegisterUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +508,7 @@
 				FBEAF1DD1C8A49AC00CBB90F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
