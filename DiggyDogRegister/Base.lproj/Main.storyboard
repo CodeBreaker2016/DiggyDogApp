@@ -19,10 +19,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="w4s-Sg-HwN" userLabel="logo">
-                                <rect key="frame" x="60" y="20" width="480" height="150"/>
-                                <color key="backgroundColor" red="1" green="1" blue="0.75686274509803919" alpha="1" colorSpace="calibratedRGB"/>
-                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oMe-Bd-2Vc">
+                                <rect key="frame" x="0.0" y="20" width="600" height="150"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="w4s-Sg-HwN" userLabel="logo">
+                                        <rect key="frame" x="120" y="0.0" width="360" height="150"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="0.75686274509803919" alpha="1" colorSpace="calibratedRGB"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="w4s-Sg-HwN" firstAttribute="height" secondItem="oMe-Bd-2Vc" secondAttribute="height" id="FR5-fR-CWC"/>
+                                    <constraint firstItem="w4s-Sg-HwN" firstAttribute="centerX" secondItem="oMe-Bd-2Vc" secondAttribute="centerX" id="FoP-4X-RCc"/>
+                                    <constraint firstItem="w4s-Sg-HwN" firstAttribute="centerY" secondItem="oMe-Bd-2Vc" secondAttribute="centerY" id="S7f-fL-TNt"/>
+                                    <constraint firstItem="w4s-Sg-HwN" firstAttribute="width" secondItem="oMe-Bd-2Vc" secondAttribute="width" multiplier="0.6" id="hMK-25-suh"/>
+                                </constraints>
+                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V0J-81-Bsh" userLabel="form">
                                 <rect key="frame" x="0.0" y="170" width="600" height="270"/>
                                 <subviews>
@@ -85,15 +97,21 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="V0J-81-Bsh" firstAttribute="top" secondItem="w4s-Sg-HwN" secondAttribute="bottom" id="4ot-PW-Ih3"/>
                             <constraint firstItem="V0J-81-Bsh" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="9OL-5C-464"/>
-                            <constraint firstItem="w4s-Sg-HwN" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.25" id="PNC-b6-55j"/>
+                            <constraint firstItem="oMe-Bd-2Vc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="B3O-52-3Up"/>
+                            <constraint firstItem="oMe-Bd-2Vc" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="CwV-iz-0to"/>
                             <constraint firstItem="V0J-81-Bsh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Pz1-Ww-ZUs"/>
                             <constraint firstItem="V0J-81-Bsh" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.45" id="VFN-bO-E2E"/>
-                            <constraint firstItem="w4s-Sg-HwN" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.8" id="ViD-ci-8jK"/>
-                            <constraint firstItem="w4s-Sg-HwN" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="X8i-5v-Gzm"/>
-                            <constraint firstItem="w4s-Sg-HwN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YGZ-8e-sQe"/>
+                            <constraint firstItem="V0J-81-Bsh" firstAttribute="top" secondItem="w4s-Sg-HwN" secondAttribute="bottom" id="fXe-xy-wNm"/>
+                            <constraint firstItem="oMe-Bd-2Vc" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.25" id="ikc-mx-ZH9"/>
+                            <constraint firstItem="oMe-Bd-2Vc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="pf2-BU-Apu"/>
+                            <constraint firstItem="V0J-81-Bsh" firstAttribute="top" secondItem="oMe-Bd-2Vc" secondAttribute="bottom" id="xKf-Sl-i4C"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="fXe-xy-wNm"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
