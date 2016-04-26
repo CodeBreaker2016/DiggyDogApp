@@ -11,7 +11,6 @@
 		FBEAF1B31C8A49AC00CBB90F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEAF1B21C8A49AC00CBB90F /* ViewController.swift */; };
 		FBEAF1B61C8A49AC00CBB90F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBEAF1B41C8A49AC00CBB90F /* Main.storyboard */; };
 		FBEAF1B81C8A49AC00CBB90F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBEAF1B71C8A49AC00CBB90F /* Assets.xcassets */; };
-		FBEAF1BB1C8A49AC00CBB90F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBEAF1B91C8A49AC00CBB90F /* LaunchScreen.storyboard */; };
 		FBEAF1C61C8A49AC00CBB90F /* DiggyDogRegisterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEAF1C51C8A49AC00CBB90F /* DiggyDogRegisterTests.swift */; };
 		FBEAF1D11C8A49AC00CBB90F /* DiggyDogRegisterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEAF1D01C8A49AC00CBB90F /* DiggyDogRegisterUITests.swift */; };
 		FBF370541CCEFAE200947632 /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = FBF370531CCEFAE200947632 /* dog.png */; };
@@ -41,7 +40,6 @@
 		FBEAF1B21C8A49AC00CBB90F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FBEAF1B51C8A49AC00CBB90F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FBEAF1B71C8A49AC00CBB90F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FBEAF1BA1C8A49AC00CBB90F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBEAF1BC1C8A49AC00CBB90F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBEAF1C11C8A49AC00CBB90F /* DiggyDogRegisterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiggyDogRegisterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBEAF1C51C8A49AC00CBB90F /* DiggyDogRegisterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiggyDogRegisterTests.swift; sourceTree = "<group>"; };
@@ -106,7 +104,6 @@
 				FBEAF1B21C8A49AC00CBB90F /* ViewController.swift */,
 				FBEAF1B41C8A49AC00CBB90F /* Main.storyboard */,
 				FBEAF1B71C8A49AC00CBB90F /* Assets.xcassets */,
-				FBEAF1B91C8A49AC00CBB90F /* LaunchScreen.storyboard */,
 				FBEAF1BC1C8A49AC00CBB90F /* Info.plist */,
 				FBF370551CCEFEEE00947632 /* ImageSelectViewController.swift */,
 			);
@@ -236,7 +233,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBF370541CCEFAE200947632 /* dog.png in Resources */,
-				FBEAF1BB1C8A49AC00CBB90F /* LaunchScreen.storyboard in Resources */,
 				FBEAF1B81C8A49AC00CBB90F /* Assets.xcassets in Resources */,
 				FBEAF1B61C8A49AC00CBB90F /* Main.storyboard in Resources */,
 			);
@@ -307,14 +303,6 @@
 				FBEAF1B51C8A49AC00CBB90F /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FBEAF1B91C8A49AC00CBB90F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FBEAF1BA1C8A49AC00CBB90F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
