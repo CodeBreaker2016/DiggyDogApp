@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
@@ -20,23 +21,36 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oMe-Bd-2Vc">
-                                <rect key="frame" x="0.0" y="20" width="600" height="150"/>
+                                <rect key="frame" x="0.0" y="20" width="600" height="210"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="w4s-Sg-HwN" userLabel="logo">
-                                        <rect key="frame" x="120" y="0.0" width="360" height="150"/>
-                                        <color key="backgroundColor" red="1" green="1" blue="0.75686274509803919" alpha="1" colorSpace="calibratedRGB"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dog.png" translatesAutoresizingMaskIntoConstraints="NO" id="w4s-Sg-HwN" userLabel="logo">
+                                        <rect key="frame" x="195" y="21" width="210" height="168"/>
                                     </imageView>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.14999999999999999" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="w4s-Sg-HwN" firstAttribute="height" secondItem="oMe-Bd-2Vc" secondAttribute="height" id="FR5-fR-CWC"/>
+                                    <constraint firstItem="w4s-Sg-HwN" firstAttribute="width" secondItem="oMe-Bd-2Vc" secondAttribute="height" multiplier="512:512" id="AhB-rQ-ie2"/>
+                                    <constraint firstItem="w4s-Sg-HwN" firstAttribute="height" secondItem="oMe-Bd-2Vc" secondAttribute="height" multiplier="0.8" id="FR5-fR-CWC"/>
                                     <constraint firstItem="w4s-Sg-HwN" firstAttribute="centerX" secondItem="oMe-Bd-2Vc" secondAttribute="centerX" id="FoP-4X-RCc"/>
+                                    <constraint firstItem="w4s-Sg-HwN" firstAttribute="centerX" secondItem="oMe-Bd-2Vc" secondAttribute="centerX" id="Nhn-gk-p69"/>
+                                    <constraint firstItem="w4s-Sg-HwN" firstAttribute="top" secondItem="oMe-Bd-2Vc" secondAttribute="top" constant="21" id="PlV-Oe-oQQ"/>
                                     <constraint firstItem="w4s-Sg-HwN" firstAttribute="centerY" secondItem="oMe-Bd-2Vc" secondAttribute="centerY" id="S7f-fL-TNt"/>
+                                    <constraint firstItem="w4s-Sg-HwN" firstAttribute="centerY" secondItem="oMe-Bd-2Vc" secondAttribute="centerY" id="URe-eS-j6G"/>
+                                    <constraint firstItem="w4s-Sg-HwN" firstAttribute="width" secondItem="oMe-Bd-2Vc" secondAttribute="height" multiplier="512:512" id="gEg-C8-ihV"/>
                                     <constraint firstItem="w4s-Sg-HwN" firstAttribute="width" secondItem="oMe-Bd-2Vc" secondAttribute="width" multiplier="0.6" id="hMK-25-suh"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="AhB-rQ-ie2"/>
+                                        <exclude reference="FoP-4X-RCc"/>
+                                        <exclude reference="PlV-Oe-oQQ"/>
+                                        <exclude reference="S7f-fL-TNt"/>
+                                        <exclude reference="hMK-25-suh"/>
+                                    </mask>
+                                </variation>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V0J-81-Bsh" userLabel="form">
-                                <rect key="frame" x="0.0" y="170" width="600" height="270"/>
+                                <rect key="frame" x="0.0" y="230" width="600" height="300"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username or E-mail" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kgl-w9-Qvf">
                                         <rect key="frame" x="60" y="32" width="480" height="30"/>
@@ -49,8 +63,8 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wna-xo-wvJ">
-                                        <rect key="frame" x="176" y="170" width="248" height="30"/>
-                                        <state key="normal" title="Don't have an account yet? Sign Up."/>
+                                        <rect key="frame" x="178" y="170" width="244" height="30"/>
+                                        <state key="normal" title="Don't have an account yet? Sign Up"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hT0-Wf-86W">
                                         <rect key="frame" x="279" y="132" width="42" height="30"/>
@@ -74,7 +88,6 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="Kgl-w9-Qvf" firstAttribute="top" secondItem="7nF-Rp-yhL" secondAttribute="bottom" constant="8" id="FER-9U-HYU"/>
                                     <constraint firstItem="hT0-Wf-86W" firstAttribute="centerX" secondItem="7nF-Rp-yhL" secondAttribute="centerX" id="FTl-CH-CEa"/>
@@ -95,21 +108,23 @@
                                 </variation>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="V0J-81-Bsh" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="9OL-5C-464"/>
-                            <constraint firstItem="oMe-Bd-2Vc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="B3O-52-3Up"/>
-                            <constraint firstItem="oMe-Bd-2Vc" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="CwV-iz-0to"/>
-                            <constraint firstItem="V0J-81-Bsh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Pz1-Ww-ZUs"/>
-                            <constraint firstItem="V0J-81-Bsh" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.45" id="VFN-bO-E2E"/>
+                            <constraint firstItem="V0J-81-Bsh" firstAttribute="top" secondItem="oMe-Bd-2Vc" secondAttribute="bottom" id="0oS-9w-4kO"/>
+                            <constraint firstItem="V0J-81-Bsh" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="3oE-1g-Skt"/>
+                            <constraint firstItem="oMe-Bd-2Vc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AUS-Gb-Kb6"/>
+                            <constraint firstItem="V0J-81-Bsh" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.5" id="Ny1-LD-6IW"/>
+                            <constraint firstItem="V0J-81-Bsh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="U8i-Py-jgY"/>
+                            <constraint firstItem="oMe-Bd-2Vc" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.35" id="Y9T-5w-HOf"/>
                             <constraint firstItem="V0J-81-Bsh" firstAttribute="top" secondItem="w4s-Sg-HwN" secondAttribute="bottom" id="fXe-xy-wNm"/>
-                            <constraint firstItem="oMe-Bd-2Vc" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.25" id="ikc-mx-ZH9"/>
                             <constraint firstItem="oMe-Bd-2Vc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="pf2-BU-Apu"/>
+                            <constraint firstItem="oMe-Bd-2Vc" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="rZA-QU-Teq"/>
                             <constraint firstItem="V0J-81-Bsh" firstAttribute="top" secondItem="oMe-Bd-2Vc" secondAttribute="bottom" id="xKf-Sl-i4C"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
                                 <exclude reference="fXe-xy-wNm"/>
+                                <exclude reference="xKf-Sl-i4C"/>
                             </mask>
                         </variation>
                     </view>
@@ -264,4 +279,7 @@
             <point key="canvasLocation" x="-231" y="2059"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="dog.png" width="512" height="512"/>
+    </resources>
 </document>
